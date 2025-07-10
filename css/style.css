@@ -1,0 +1,45 @@
+
+/* font style */
+.merriweather-merri {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared section */
+
+/* Banner Style */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+    
+}
+.greeting-banner{
+    /* background-image: url('../images/Banner\ Image.png'); */
+    background: linear-gradient(rgba(7, 2, 17, 0.8), rgba(7, 2, 17, 0.1)),
+    url('../images/Banner Image.png');;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 170px 340px;
+    border-radius: 16px;
+    height: 600px;
+    margin: 50px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greeting{
+   
+    margin: 170px 340px;
+}
+.new-year-greeting{
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.new-year-celebration{
+    font-size: 72PX;
+    color: #fff;
+}
